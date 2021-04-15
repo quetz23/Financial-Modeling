@@ -5,7 +5,7 @@ then create..
 
 DAOs for stock screener fields
 
-Models for stock screener fields
+Models (getters and setters) for stock screener fields
 
 Controllers for stock screener fields
 
