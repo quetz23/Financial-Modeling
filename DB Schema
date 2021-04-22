@@ -1,5 +1,9 @@
 Login parameters:
 
+profile id (primary key)
+
+user id
+
 first name
 
 last name
