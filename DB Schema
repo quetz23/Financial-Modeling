@@ -1,27 +1,27 @@
 Login parameters:
 
-profile id (primary key)
+profile id (int, primary key)
 
-user id
+user id (int)
 
-first name
+first name (varchar)
 
-last name
+last name (varchar)
 
-email
+email (varchar)
 
-username
+username (varchar)
 
 password
 
 Stock screener Parameters:
 
-marketCap
+marketCap (int)
 
-beta
+beta (int)
 
-volume
+volume (int)
 
-sector
+sector (varchar)
 
-dividend
+dividend (int)
