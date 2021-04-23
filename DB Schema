@@ -1,4 +1,4 @@
-Login parameters:
+user profile parameters:
 
 profile id (int, primary key)
 
@@ -14,7 +14,7 @@ username (varchar)
 
 password
 
-Stock screener Parameters:
+Stock screener history Parameters:
 
 marketCap (int)
 
@@ -25,3 +25,5 @@ volume (int)
 sector (varchar)
 
 dividend (int)
+
+Watchlist will be its own table
