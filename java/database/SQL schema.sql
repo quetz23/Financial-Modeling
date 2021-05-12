@@ -13,9 +13,16 @@ email           varchar(128)   NOT NULL
 
 CREATE TABLE stock_screener_parameters
 (
-market_cap      int,
-beta            int,    
-volume          int,
+market_cap_more_than      int,
+beta_more_than            int,    
+volume_more_than          int,
 sector          varchar(128),
-dividend        int
+dividend_more_than        int
+);
+
+CREATE TABLE watchlist
+(
+symbol varchar(10),
+company_name varchar(120)
+
 );
