@@ -7,8 +7,8 @@ user_id         int UNIQUE NOT NULL,
 first_name      varchar(128)    NOT NULL,
 last_name       varchar(128)    NOT NULL,
 email           varchar(128)   NOT NULL,
-recent_parameters_id int PRIMARY KEY,
-watchlist_id           int PRIMARY KEY
+recent_parameters_id int  ,
+watchlist_id           int
 
 );
 
@@ -24,7 +24,7 @@ beta_more_than            int,
 volume_more_than          int,
 sector          varchar(128),
 dividend_more_than        int,
-CONSTRAINT fk_user_id FOREIGN KEY (user_id);
+CONSTRAINT fk_user_id FOREIGN KEY (user_id)
 );
 
 CREATE TABLE watchlist
@@ -33,7 +33,7 @@ watchlist_id INT GENERATED ALWAYS AS IDENTITY   PRIMARY KEY,
 user_id int NOT NULL,
 symbol varchar(10),
 
-CONSTRAINT fk_user_id FOREIGN KEY (user_id);
+CONSTRAINT fk_user_id FOREIGN KEY (user_id)
 );
 
 COMMIT;
