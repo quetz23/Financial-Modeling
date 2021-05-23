@@ -29,10 +29,11 @@ CONSTRAINT fk_user_id FOREIGN KEY (user_id);
 
 CREATE TABLE watchlist
 (
-watchlist_id int
+watchlist_id int,
+user_id int,
 symbol varchar(10),
 
-
+CONSTRAINT fk_user_id FOREIGN KEY (user_id);
 );
 
 COMMIT;
